@@ -1,0 +1,183 @@
+@media screen and (max-width: 576px) {
+  .img-anchor-container,
+  .gamer-section,
+  .instantly-container,
+  .career-h-p-i-container,
+  .nav-list-container > ul {
+    flex-direction: column;
+  }
+  .img-head-container,
+  .nav-list-container,
+  .goat-img-container,
+  .goat-container,
+  .gamer-img-container,
+  .gamer-info-container,
+  .head-p-container,
+  .head-p-container-1,
+  .career-div,
+  .group-img-container {
+    width: 100%;
+  }
+  .nav-list-container > ul {
+    gap: 36px;
+    margin: 0;
+    padding: 0 0 78px 0;
+  }
+  .img-head-container {
+    justify-content: center;
+    margin: 100px 0 60px 0;
+  }
+  .goat-section-container,
+  .instantly-container-1 {
+    flex-direction: column-reverse;
+  }
+  .goat-container {
+    text-align: center;
+    padding: 10px;
+  }
+  .goat-img-container,
+  .gamer-info-container,
+  .head-p-container,
+  .head-p-container-1 {
+    text-align: center;
+  }
+  .single-box {
+    grid-template-columns: 1fr;
+  }
+  .relative-img img,
+  .relative-img-1 {
+    width: 150%;
+  }
+  .relative-img,
+  .relative-img {
+    left: 2%;
+    bottom: -5%;
+    width: 20%;
+  }
+  .instantly-container,
+  .instantly-container-1 {
+    gap: 75px;
+  }
+  .instantly-img-container,
+  .instantly-img-container-1 {
+    width: 70%;
+    display: flex;
+    align-items: right;
+  }
+  .relative-img > img,
+  .relative-img-1 > img {
+    width: 150%;
+  }
+  .relative-img,
+  .relative-img-1 {
+    left: 2%;
+    bottom: -5%;
+    width: 20%;
+  }
+  .career-h-p-i-container {
+    padding: 10px;
+    gap: 50px;
+  }
+  .career-div > div {
+    justify-content: center;
+  }
+  .action-img-container {
+    flex-flow: column;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .img-anchor-container,
+  .gamer-section,
+  .instantly-container,
+  .career-h-p-i-container,
+  .nav-list-container > ul {
+    flex-direction: column;
+  }
+  .img-head-container,
+  .nav-list-container,
+  .goat-img-container,
+  .goat-container,
+  .gamer-img-container,
+  .gamer-info-container,
+  .head-p-container,
+  .head-p-container-1,
+  .career-div,
+  .group-img-container {
+    width: 100%;
+  }
+
+  .nav-list-container > ul {
+    gap: 36px;
+    margin: 0;
+    padding: 0 0 78px 0;
+  }
+  .img-head-container {
+    justify-content: center;
+    margin: 100px 0 60px 0;
+  }
+  .goat-section-container,
+  .instantly-container-1 {
+    flex-direction: column-reverse;
+  }
+  .goat-container {
+    text-align: center;
+    padding: 10px;
+  }
+  .goat-img-container,
+  .head-p-container-1 {
+    text-align: center;
+  }
+
+  .gamer-info-container {
+    text-align: center;
+  }
+
+  .single-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .instantly-img-container {
+    width: 70%;
+    display: flex;
+    align-items: right;
+  }
+  .instantly-img-container-1 {
+    width: 70%;
+    display: flex;
+    align-items: right;
+  }
+
+  .relative-img img {
+    width: 150%;
+  }
+  .relative-img-1 img {
+    width: 130%;
+  }
+
+  .relative-img {
+    left: 2%;
+    bottom: -5%;
+  }
+  .relative-img-1 {
+    left: 2%;
+    bottom: -5%;
+
+    width: 25%;
+  }
+  .head-p-container {
+    text-align: center;
+  }
+  .instantly-container,
+  .instantly-container-1 {
+    gap: 75px;
+  }
+  .career-h-p-i-container {
+    padding: 10px;
+    gap: 50px;
+  }
+  .career-div > div {
+    justify-content: center;
+  }
+}
+
+/* footer */
